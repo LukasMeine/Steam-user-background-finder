@@ -29,6 +29,7 @@ function getBackground(contents)
   $(el).html(contents);
   url = $(el).find('.profile_background_image_content').css('background-image');
   $('.site-wrapper').css('background-image',url);
+  $('.site-wrapper').css('background-size','cover');
   url = url.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
   setBackgroundObj(url);
 }
