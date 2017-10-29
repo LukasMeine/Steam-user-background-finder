@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Find the steam market link for the profile background of any user">
+    <meta name="author" content="Lucas Meine">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Steam user background finder</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/vendor/boostrap/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Background finder</h3>
+              <nav class="nav nav-masthead">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">Contribute</a>
+                <a class="nav-link" href="https://lucasmeine.com">Contact</a>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Find any steam user background.</h1>
+            <p class="lead">Background finder allows you to find the steam market link for the profile background of any user</p>
+            <p class="lead">
+              <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon1"><img style="width:20px;height:20px;" src="https://cdn.worldvectorlogo.com/logos/steam-1.svg"></img></span>
+                  <input type="text" class="form-control" onkeydown="search($(this).val())" placeholder="http://steamcommunity.com/profiles/76561198049310359" aria-describedby="basic-addon1">
+                </div>
+                <br>
+
+                <div id="btnHolder">
+                  <button type="button" onclick="downloadBackground();" class="btn btn-secondary">Download background</button>
+                  <button type="button" onclick="purchasebackground();" class="btn btn-secondary">Buy background on Steam</button>
+                </div>
+            </p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>This project is <a href="https://github.com/LukasMeine"> open source </a>. Coded with ❤ by Lukas Meine.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="assets/js/finder.js"></script>
+  </body>
+</html>
