@@ -3,7 +3,7 @@ var background = [];
 $(document).ready(function(){
 
   $('#btnHolder').hide();
-  getSteamProfile('http://steamcommunity.com/profiles/76561198049310359');
+  getSteamProfile('https://steamcommunity.com/profiles/76561198049310359');
 
 
 });
@@ -18,7 +18,7 @@ function search(value)
 
 function getSteamProfile(url)
 {
-  $.getJSON('http://www.whateverorigin.org/get?url=' + encodeURIComponent(url) + '&callback=?', function(data){
+  $.getJSON('https://www.whateverorigin.org/get?url=' + encodeURIComponent(url) + '&callback=?', function(data){
   	getBackground(data.contents);
   });
 }
