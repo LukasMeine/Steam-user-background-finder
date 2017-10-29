@@ -4,7 +4,8 @@ If you ever saw a cool background on an user profile on steam and had no idea of
 
 ## Getting Started
 
-You can find the project live and use it straightaway at: http://backgroundfinder.lucasmeine.com
+You can find the project live and use it straightaway at http://backgroundfinder.lucasmeine.com
+
 However, you are more than welcome to download the project and contribute to the code.
 
 ### Prerequisites
